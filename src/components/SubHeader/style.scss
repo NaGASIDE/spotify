@@ -1,0 +1,168 @@
+.sub-header {
+  .selection-premium {
+    background-color: rgb(195, 240, 200);
+    article {
+      width: 117rem;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      margin: 0px auto;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      min-height: 48rem;
+      padding: 0rem 1.5rem;
+      header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        box-sizing: border-box;
+        flex-grow: 1;
+        .text-block {
+          height: 40.7rem;
+          margin-right: 3.2rem;
+          text-align: left;
+          padding-top: 7.2rem;
+          padding-bottom: 7.2rem;
+          display: block;
+          p {
+            text-align: left;
+            font-size: 14px;
+            margin: 16px 0px 32px;
+            font-weight: 600;
+            line-height: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            padding: 0px 0px 1em;
+          }
+          .text-block_title {
+            font-size: 60px;
+            line-height: 1.2;
+            margin: 0px;
+            padding: 0px;
+            font-weight: 900;
+            max-width: 100%;
+            display: inline-block;
+            h1 {
+              margin: 0rem
+            }
+          }
+        }
+        .text-block_discription {
+          margin: 0px;
+          width: auto;
+          padding: 0px;
+          max-width: 100%;
+          display: inline-block;
+          letter-spacing: 0.25px;
+          color: inherit;
+          text-align: left;
+          h2 {
+            font-size: 2.4rem;
+            margin: 0rem;
+            margin-top: 3rem;
+            line-height: 1.5;
+            padding: 0px;
+            max-width: 100%;
+            display: inline-block;
+            font-weight: 400;
+          }
+        }
+        .img-block {
+          max-width: 40rem;
+        }
+      }
+      .text-block_button {
+        margin: 35px 0px 0px;
+        display: block;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-size: 14px;
+        letter-spacing: 2px;
+        a {
+          width: 40rem;
+          background: #000;
+          border-radius: 500px;
+          padding: 17.5px 48px;
+          span {
+            color: #fff;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+
+
+  .selection-free {
+    background-color: rgb(41, 65, 171);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg);
+    background-position: right center;
+    article {
+      min-height: 600px;
+      box-sizing: border-box;
+      margin: 0px auto;
+      width: 1170px;
+      padding: 0px 15px;
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 64px 0px;
+        align-items: flex-start;
+        color: #1ed760;
+        p { 
+          font-size: 14px;
+          margin: 16px 0px 32px;
+          line-height: 16px;
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+        }
+        h1 {
+          text-align: start;
+          font-size: 60px;
+          min-width: 372px;
+          line-height: 1.2;
+          letter-spacing: -0.02em;
+          margin: 0px 0px 8px;
+          padding: 0px;
+          font-weight: 900;
+        }
+      }
+      .sub-header {
+        padding: 0rem;
+        h2 {
+          text-align: start;
+          max-width: 558px;
+          margin: 32px 0px 0px;
+          padding: 0px;
+          font-size: 24px;
+          line-height: 1.5;
+          font-weight: 400;
+        }
+      }
+      .button {
+        padding: 0rem;
+        margin: 60px 0px 0px;
+        div {
+          padding: 0px;
+          a {
+            span {
+              padding: 17px 48px;
+              background: #1ED760;
+              border-radius: 500px;
+              color: rgb(41, 65, 171);
+              font-weight: 700;
+              letter-spacing: 2px;
+              line-height: 1;
+              text-align: center;
+              text-transform: uppercase;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}
